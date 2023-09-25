@@ -287,7 +287,7 @@ export default class SwipeRating extends Component<
 
   handleLayoutChange() {
     // eslint-disable-next-line max-params
-    this.ratingRef.measure((fx, fy, width, height, px) => {
+    this.ratingRef?.measure((fx, fy, width, height, px) => {
       const halfWidth = width / 2;
       const pageXWithinWindow = px % Dimensions.get("window").width;
 
