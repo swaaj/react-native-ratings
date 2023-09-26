@@ -22,7 +22,7 @@
   "scripts": {
     "lint": "eslint --ext .ts --ext .tsx  src/",
     "lint-demo": "eslint --ext .ts --ext .tsx demo/src/",
-    "lint-all": "yarn lint && yarn lint-demo",
+    "lint-all": "yarn lint && yarn lint-demo"
   },
   "author": "Monte Thakkar",
   "license": "MIT",
